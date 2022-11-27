@@ -1,2 +1,3 @@
 # Corbins-Pro-ReadMe-Generator
-A Command Line Application that can generate descriptive ReadMe Files based on user input
+Hello User, I was tasked with cratring a Command Line Application that can generate descriptive ReadMe Files based on user input.
+The App is invoked by node index.js in the terminal. Please Enjoy!
