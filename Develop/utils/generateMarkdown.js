@@ -1,29 +1,31 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {
-  if (data.license = true) {
+
+function renderLicenseBadge(data) {
+  if (license = "MIT", "ISC", "zlib", "ncsa", "mpl-2.0", "osl-3.0", "gpl", "cc") {
     return `
   ![License Badge](https://img.shields.io/github/license/${data.github}/${data.repo})`
     }  else {
       return ""
     }
-}
+};
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) { 
-  if (data.license = true) {
+
+function renderLicenseLink(data) { 
+  if (license = "MIT", "ISC", "zlib", "ncsa", "mpl-2.0", "osl-3.0", "gpl", "cc") {
   return `
   ## https://img.shields.io/github/license/${data.github}/${data.repo}`
   }  else {
     return ""
   }
-}
+};
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {
-  if (data.license = true) {
+function renderLicenseSection(data) {
+  if (license = "MIT", "ISC", "zlib", "ncsa", "mpl-2.0", "osl-3.0", "gpl", "cc") {
   return `
   ## Licensing Information
   
@@ -32,11 +34,16 @@ function renderLicenseSection(license) {
   }  else {
     return ""
   }
-}
+};
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+
   return `# ${data.title}
+
+  ${renderLicenseSection(data.license)}
+  ${renderLicenseBadge(data.license)}
+  ${renderLicenseLink(data.license)}
 
   ## Description
 
@@ -65,7 +72,7 @@ function generateMarkdown(data) {
 
   ## How can users test this applicaiton?
 
-  ${data.test}
+  ${data.testing}
 
   ## Contact creator with questions
 
@@ -75,7 +82,6 @@ function generateMarkdown(data) {
 
 
 
-`;
-}
+`};
 
 module.exports = generateMarkdown;
