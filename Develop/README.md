@@ -1,4 +1,4 @@
-# a
+# Corbin's ReadMe Generator
 
   
   ## Licensing Information
@@ -12,7 +12,7 @@
 
   ## Description
 
-  a
+  Generates ReadMe files
 
   ## Table of Contents
 
@@ -25,25 +25,25 @@
 
   ## Installation Instructions
 
-  a
+  npm install
 
   ## Usage Restrictions
 
-  a
+  Nope!
 
   ## How can you contribute?
 
-  a
+  git push
 
   ## How can users test this applicaiton?
 
-  a
+  node index.js
 
   ## Contact creator with questions
 
-  * Click this link to go to my [GitHub profile](https;//github.com/a)
+  * Click this link to go to my [GitHub profile](https;//github.com/Cutter25)
 
-  * If you have any questions for the creators, contact us at [send an email](mailto:a)
+  * If you have any questions for the creators, contact us at [send an email](mailto:placeholderemail@email.com)
 
 
 
