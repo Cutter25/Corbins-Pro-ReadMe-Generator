@@ -16,12 +16,12 @@
 
   ## Table of Contents
 
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [License](#license)
-  - [Contribution](#contribution)
-  - [Testing](#testing)
-  - [Questions](#questions)
+  - [Installation](#installation-instructions)
+  - [Usage](#usage-restrictions)
+  - [License](#licensing-information)
+  - [Contribution](#how-can-you-contribute?)
+  - [Testing](#how-can-users-test-this-application?)
+  - [Questions](#contact-creator-with-questions)
 
   ## Installation Instructions
 
